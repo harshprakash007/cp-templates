@@ -1,6 +1,6 @@
 //sieve till root
 
-ll n; 
+const ll n = 1e7; 
 vector<bool> sieve(n+1, true);
 sieve[0] = sieve[1] = 0; 
 for(int i = 2; i*i <= n; i++)
